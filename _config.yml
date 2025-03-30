@@ -1,0 +1,252 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Phil Halfpenny
+title: Solutions Architect and Principal Developer
+email: hello@philhalfpenny.co.uk
+website: about.philhalfpenny.co.uk
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+# github_username:  philhalf
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: philip-halfpenny
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Phil and I'm a solutions architect and principal developer. I have over 20 years' experience in software and web development, including both on-premise and cloud infrastructure support and maintenance and a history in technical support. I have worked in a variety of companies over the years ranging from large financial institutions to creative agencies and everything in between.
+
+  My main skillset consists of: <mark>System Design</mark>, <mark>Software Development</mark>, <mark>DevOps</mark>, <mark>AWS</mark> and <mark>Build Automation</mark>.
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Full CI/CD Implementation
+        description: | # this will include new lines to allow paragraphs
+          I designed and developed a <mark>CI/CD</mark> system using <mark>Atlassian Bitbucket</mark>, <mark>Jenkins</mark>, <mark>Terraform</mark> and <mark>AWS</mark> that could launch a full platform of software applications and associated infrastructure automatically into an AWS account within 2 hours, compared to the 3 days it would take to set everything up manually.
+          
+          After the initial launch, further software changes run through the same pipelines, providing fully automated unit and integration testing and after successful testing, deploys to the production environment.
+          
+          Deployment time and stability have been reduced considerably from previous manual deployments and any downtime has been minimized. In the event that any bugs do slip through into production, one-click rollbacks are available.
+          
+          Key Technologies: <mark>AWS</mark>, <mark>Terraform</mark>, <mark>Jenkins</mark>, <mark>Bitbucket</mark>, <mark>Nexus</mark>, <mark>Docker/ECS</mark>, <mark>.Net</mark>, <mark>Python</mark>, <mark>Bash</mark>, <mark>Linux</mark>
+      - layout: top-middle
+        title: AWS to Azure Comparison
+        description: | # this will include new lines to allow paragraphs
+          As part of a project to apply for Microsoft Partnership, I was tasked with seeing what was involved in migrating the existing <mark>AWS</mark> solution to <mark>Azure</mark>.
+          
+          I was able to map the relevant services across to Azure and run everything successfully, but at the time, Azure didn't provide the required level of redundancy that AWS offered.
+          
+          Key Technologies: <mark>AWS</mark>, <mark>Azure</mark>, <mark>Terraform</mark>
+      - layout: top-middle
+        title: Redevelopment of SMS Subscription Management System
+        description: | # this will include new lines to allow paragraphs
+          I took an existing application that required a large amount of downtime to deploy updates and affected a large number of customers every time the smallest change was made.
+          
+          By applying standard OOP practices, I was able to redevelop the critical application into a dynamic, plugin based service were each customer's plugin could be stopped, updated and restarted independently of the rest of the application, allowing for improved maintenance with minimal impact on all customers' uptime.
+          
+          Key Technologies: <mark>C#</mark>, <mark>OOP</mark>, <mark>Inheritance</mark>, <mark>Polymorphism</mark>, <mark>Dynamic DLL Loading</mark>
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Intamac Systems Ltd.
+        link: www.intamac.com
+        sub_title: Solutions Architect and Principal Developer
+        caption: October 2018 - Present
+        description: | # this will include new lines to allow paragraphs
+          Upon my most recent employment at Intamac, I came in as a <mark>DevOps</mark> Engineer using my experience from my previous role at ContactEngine to design and implement build pipelines for the <mark>Continuous Deployment</mark> of a <mark>Microservice</mark> based <mark>IoT Platform</mark>.
+          Although I continued to maintain and improve the <mark>CI/CD</mark> pipelines, I also got involved in the development of the Microservices and over time, took on the role of Solutions Architect for the whole Platform.
+          
+          Today, I am solely responsible for the design and implmentation of the Platform and am heavily involved in the software development of the Microservices using mainly <mark>.Net</mark> and <mark>Python</mark>.
+          I am also the lead developer of the "agent" software, developed with <mark>Golang</mark> that is deployed to edge devices to communicate with the Platform and integrate devices with the Platform services.
+          
+          Main Skills: <mark>AWS</mark> <mark>C#</mark> <mark>Golang</mark> <mark>Python</mark> <mark>Docker</mark> <mark>Jenkins</mark> <mark>Terraform</mark> <mark>Bash</mark> <mark>Linux</mark> <mark>git</mark>
+      - layout: left
+        title: ContactEngine
+        link: www.contactengine.com
+        sub_title: Senior Software Developer / DevOps Engineer
+        caption: October 2017 - October 2018
+        description: | # this will include new lines to allow paragraphs
+          I started at ContactEngine as a <mark>.Net</mark> software developer for their innovative AI powered customer services platform, primarily developing backend services to support the integration from the front-end to the AI engine.
+          
+          After a couple of months, an opportunity became available to get involved in a <mark>DevOps</mark> focussed role and I took the opportunity to use my existing experience of Ops and Software Development to maintain existing build pipelines and processes as well as develop new ones. I developed some web based tools using <mark>Ruby on Rails</mark> to allow the Software team to be able to self-service infrastructure and manage their own releases to production where appropriate.
+
+          Main Skills: <mark>AWS</mark> <mark>Azure</mark> <mark>C#</mark> <mark>Ruby/Rails</mark> <mark>Jenkins</mark> <mark>Terraform</mark> <mark>Bash</mark>
+      - layout: left
+        title: Studio One
+        sub_title: Software Developer
+        caption: October 2016 - October 2017
+        description: | # this will include new lines to allow paragraphs
+          I was brought in to Studio One's digital team to develop a new product for an existing client to help manage logistics. A basic prototype had been developed using <mark>Laravel</mark> and I continued to develop this further, working very closely with the client and their employees to understand their processes and develop the product to meet their current needs and improve processes where possible.
+          
+          I also assisted in the development of the digital team's bread and butter Wordpress and WooCommerce websites (as well as a Magento Shop) and maintained the web hosting infrastructure.
+          
+          Main Skills: <mark>PHP</mark> <mark>Laravel</mark> <mark>Magento</mark> <mark>WordPress</mark> <mark>WooCommerce</mark> <mark>mySQL</mark> <mark>HTML</mark> <mark>jQuery</mark> <mark>CSS</mark> <mark>Infrastructure Management</mark>
+      - layout: left
+        title: iPSL Ltd.
+        link: www.ipsl.co.uk
+        sub_title: Windows Developer
+        caption: April 2016 - August 2016
+        description: | # this will include new lines to allow paragraphs
+          As part iPSL windows development team, I was tasked with developing internal software projects to help different departments with their day-to-day tasks in the cheque clearing process.
+          
+          Main Skills: <mark>C#/.Net</mark> <mark>SQL Server</mark> <mark>Windows Forms</mark> <mark>Windows Services</mark> <mark>TFS</mark>
+      - layout: left
+        title: Intamac Systems Ltd.
+        link: www.intamac.com
+        sub_title: Senior Programmer Analyst
+        caption: September 2014 - March 2016
+        description: | # this will include new lines to allow paragraphs
+          On my second outing at Intamac, I returned to the software development team and ended up working as the liaison between the software team and the operations team which were siloed at the time.
+          My role ended up moving more towards the operations side and involved determining server resource requirements for applications, working closely with the Database Administrator to optimise application and database interactions as well as developing firewall rules using <mark>Tcl</mark>.
+          
+          Main Skills: <mark>C#/VB.Net</mark> <mark>SQL Server</mark> <mark>Web Forms</mark> <mark>Windows Services</mark> <mark>WCF</mark> <mark>REST APIs</mark> <mark>Subversion/git</mark> <mark>Infrastructure Management</mark> <mark>F5 Firewall</mark> <mark>Tcl</mark>
+      - layout: left
+        title: Kinetic Creative Ltd.
+        link: www.kineticwecreate.co.uk
+        sub_title: Head of Digital
+        caption: April 2013 - September 2014
+        description: | # this will include new lines to allow paragraphs
+          As the Head of Digital at the creative agency Kinetic Creative, I led a small team of web developers with the aid of the creative team to develop a number of websites and web applications, primarily using <mark>WordPress</mark> ranging from simple websites advertising a companies product(s) to a dynamic survey application used within the NHS to try to reduce the prescription of antibiotics as frequently..
+          
+          Main Skills: <mark>PHP</mark> <mark>mySQL</mark> <mark>WordPress</mark> <mark>HTML</mark> <mark>jQuery</mark> <mark>CSS</mark> <mark>Infrastructure Management</mark>
+      - layout: left
+        title: Intamac Systems Ltd.
+        link: www.intamac.com
+        sub_title: Senior Programmer Analyst
+        caption: April 2011 - April 2013
+        description: | # this will include new lines to allow paragraphs
+          During my first employment at Intamac, I was part of the software development team working on a number of services for communicating with customer devices and providing web interfaces to manage these devices. These included home alarm systems, gas meters and more.
+          
+          Main Skills: <mark>C#/VB.Net</mark> <mark>SQL Server</mark> <mark>Web Forms</mark> <mark>Windows Services</mark> <mark>WCF</mark> <mark>REST APIs</mark> <mark>SourceSafe</mark>
+      - layout: left
+        title: Fifth Dimension/
+        sub_title: Web Developer
+        caption: April 2010 - April 2011
+        description: | # this will include new lines to allow paragraphs
+          At Fifth Dimension I took over the development of the company's reporting web software used by customers to report on the myriad of data that we collected for them regarding retail store layout efficiency. Working closely with the Database Administrators, we were able to provide a clean, intuitive and efficient interface to all of the customers information.
+          
+          Main Skills: <mark>C#</mark> <mark>SQL Server</mark> <mark>Web Forms</mark>
+      - layout: left
+        title: RedTie Ltd.
+        sub_title: Web Developer
+        caption: November 2009 - April 2010
+        description: | # this will include new lines to allow paragraphs
+          RedTie were the software backend of the It's a Gift service, developing the interactive website allowing customers to visualise their own images on calendars, mugs and cards etc., then submit them to be printed and delivered to them. I worked on the Classic ASP backend of the website, bug fixing and optimizing the existing codebase.
+          
+          Main Skills: <mark>Classic ASP</mark> <mark>VBScript</mark>
+      - layout: left
+        title: Infomedia Services
+        sub_title: Senior Application Developer
+        caption: October 2007 - November 2009
+        description: | # this will include new lines to allow paragraphs
+          At Infomedia Services, I redeveloped the internal SMS subscription handling service using <mark>OOP</mark> to make it more modular, easier to update and easy to maintain with minimal downtime.
+          I also led projects to integrate with PayPal and other payment gateways to be used for managing subscriptions on <mark>WAP</mark> sites
+          
+          Main Skills: <mark>ASP.Net</mark> <mark>VB.Net</mark> <mark>SQL Server</mark> <mark>WAP</mark>
+      - layout: left
+        title: Nemisys Enterprises Ltd.
+        sub_title: Web Developer
+        caption: March 2007 - September 2007
+        description: | # this will include new lines to allow paragraphs
+          Nemisys was a small company providing custom websites to customers based on a CMS system developed in-house. I was involved in a number of web projects most using <mark>classic ASP</mark>, but also started investigations into migrating the CMS to <mark>.Net 2</mark> and <mark>web forms</mark>.
+          
+          Main Skills: <mark>ASP</mark> <mark>VBScript</mark> <mark>SQL Server</mark> <mark>ASP.Net</mark> <mark>VB.Net</mark>
+      - layout: left
+        title: Servo @ Barclaycard
+        sub_title: Senior Delivery to Desk Engineer
+        caption: September 2005 - March 2007
+        description: | # this will include new lines to allow paragraphs
+          After thinking that software development was not for me, I decided to go back to IT Support and started working for Servo, based at Barclaycard head office in Northampton.
+          Day to day, I would be determining users' software requirements for new computers, "building" both desktop and laptop computers pre-configured for each user, then installing them a the user's desk and providing training.
+          It was here that I was first introduced to the Blackberry smart(?)phone and took over user training for Blackberry devices across the company.
+          I was promoted to "VIP" Engineer which involved me being sent out to high profile users throughout Barclays and Barclaycard sites across the country to install new hardware and provide training.
+          
+          Main Skills: <mark>Customer Service</mark> <mark>User Training</mark> <mark>Hardware Installation</mark>
+      - layout: left
+        title: MACS Software Ltd.
+        sub_title: Junior Programmer
+        caption: August 2004 - September 2005
+        description: | # this will include new lines to allow paragraphs
+          My first software developer role and I was developing using <mark>Visual Objects</mark> to develop warehouse management systems.
+          
+          Main Skills: <mark>Visual Objects</mark> <mark>SQL Server</mark>
+      - layout: left
+        title: Tingdene Homes Ltd.
+        sub_title: IT Manager
+        caption: January 2000 - August 2004
+        description: | # this will include new lines to allow paragraphs
+          My first IT job out of secondary school, I started here as PC User Support, providing computer support services to all computer users within the company. After 2 years, I became the IT Manager, supporting a <mark>Windows NT 4.0</mark> network of around 250 computers and managing 1 additional member of staff in the IT Team.
+          
+          Main Skills: <mark>Windows NT 4.0</mark> <mark>Windows 2000</mark> <mark>Active Directory</mark> <mark>Networking</mark> <mark>User Support and Training</mark>
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Weavers GM School
+        caption: 1993 - 1998
+        sub_title: GCSEs
+        description: | # this will include new lines to allow paragraphs
+          I studied 12 GCSEs and received 9x A-C grades, including English, Maths and Science as well as 3x D grades.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my general interest in technology, computers and software development I also enjoy:
+      - Electronics
+      - Gaming / Game Development
+      - LEGO
+      - Reading
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
