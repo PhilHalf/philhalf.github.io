@@ -50,7 +50,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Phil and I'm a solutions architect and principal developer. I have over 20 years' experience in software and web development, including both on-premise and cloud infrastructure support and maintenance and a history in technical support. I have worked in a variety of companies over the years ranging from large financial institutions to creative agencies and everything in between.
 
-  My main skillset consists of: <mark>System Design</mark>, <mark>Software Development</mark>, <mark>DevOps</mark>, <mark>AWS</mark> and <mark>Build Automation</mark>.
+  My main skill set consists of: <mark>System Design</mark>, <mark>Software Development</mark>, <mark>DevOps</mark>, <mark>AWS</mark> and <mark>Build Automation</mark>.
 
 content:
   - title: Projects # Title for the section
@@ -126,7 +126,7 @@ content:
         sub_title: Windows Developer
         caption: April 2016 - August 2016
         description: | # this will include new lines to allow paragraphs
-          As part iPSL windows development team, I was tasked with developing internal software projects to help different departments with their day-to-day tasks in the cheque clearing process.
+          As part of iPSL's windows development team, I was tasked with developing internal software projects to help different departments with their day-to-day tasks in the cheque clearing process.
           
           Main Skills: <mark>C#/.Net</mark> <mark>SQL Server</mark> <mark>Windows Forms</mark> <mark>Windows Services</mark> <mark>TFS</mark>
       - layout: left
