@@ -59,9 +59,9 @@ content:
       - layout: top-middle
         title: Sole Designer and Developer of IoT Edge Agent
         description: | # this will include new lines to allow paragraphs
-          To provide the bridge between customers' NVT devices such as NVRs and IP Cameras and an AWS IoT based cloud platform, I designed and developed edge agent software to run on a gateway device.
+          To provide the bridge between customers' NVT devices such as NVRs and IP Cameras and an <mark>AWS</mark> IoT based cloud platform, I designed and developed edge agent software to run on a gateway device.
 
-          The software was developed in Go and handles connection and authentication to the IoT platform as well as connections to a range of NVR devices from different manufacturers.
+          The software was developed in <mark>Go</mark> and handles connection and authentication to the IoT platform as well as connections to a range of NVR devices from different manufacturers.
 
           The agent handled communication with each target device concurrently and deals with monitoring the state and configuration of the device as well as raising events with the IoT platform as they occur.
 
