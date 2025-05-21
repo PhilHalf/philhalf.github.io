@@ -48,7 +48,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Phil and I'm a solutions architect and principal developer. I have over 20 years' experience in software and web development, including both on-premise and cloud infrastructure support and maintenance and a history in technical support. I have worked in a variety of companies over the years ranging from large financial institutions to creative agencies and everything in between.
+  Hi, my name's Phil and I'm a solutions architect and principal developer. I have over 20 years' experience in software and web development, including both on-premise and cloud infrastructure support and maintenance and a history in technical support. I have worked in a variety of companies over the years ranging from large financial institutions to small creative agencies and everything in between.
 
   My main skill set consists of: <mark>System Design</mark>, <mark>Software Development</mark>, <mark>DevOps</mark>, <mark>AWS</mark> and <mark>Build Automation</mark>.
 
@@ -56,6 +56,16 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle
+        title: Sole Designer and Developer of IoT Edge Agent
+        description: | # this will include new lines to allow paragraphs
+          To provide the bridge between customers' NVT devices such as NVRs and IP Cameras and an AWS IoT based cloud platform, I designed and developed edge agent software to run on a gateway device.
+
+          The software was developed in Go and handles connection and authentication to the IoT platform as well as connections to a range of NVR devices from different manufacturers.
+
+          The agent handled communication with each target device concurrently and deals with monitoring the state and configuration of the device as well as raising events with the IoT platform as they occur.
+
+          Key Technologies: <mark>Go</mark>, <mark>MQTT</mark>, <mark>ISAPI</mark>, <mark>ONVIF</mark>, <mark>AWS</mark>, <mark>IoT</mark>
       - layout: top-middle
         title: Full CI/CD Implementation
         description: | # this will include new lines to allow paragraphs
@@ -95,10 +105,10 @@ content:
           Upon my most recent employment at Intamac, I came in as a <mark>DevOps</mark> Engineer using my experience from my previous role at ContactEngine to design and implement build pipelines for the <mark>Continuous Deployment</mark> of a <mark>Microservice</mark> based <mark>IoT Platform</mark>.
           Although I continued to maintain and improve the <mark>CI/CD</mark> pipelines, I also got involved in the development of the Microservices and over time, took on the role of Solutions Architect for the whole Platform.
           
-          Today, I am solely responsible for the design and implmentation of the Platform and am heavily involved in the software development of the Microservices using mainly <mark>.Net</mark> and <mark>Python</mark>.
-          I am also the lead developer of the "agent" software, developed with <mark>Golang</mark> that is deployed to edge devices to communicate with the Platform and integrate devices with the Platform services.
+          Today, I am solely responsible for the design and implementation of the Platform and am heavily involved in the software development of the Microservices using mainly <mark>.Net</mark> and <mark>Python</mark>.
+          I am also the lead developer of the "agent" software, developed with <mark>Go</mark> that is deployed to edge devices to communicate with the Platform and integrate devices with the Platform services.
           
-          Main Skills: <mark>AWS</mark> <mark>C#</mark> <mark>Golang</mark> <mark>Python</mark> <mark>Docker</mark> <mark>Jenkins</mark> <mark>Terraform</mark> <mark>Bash</mark> <mark>Linux</mark> <mark>git</mark>
+          Main Skills: <mark>AWS</mark> <mark>C#</mark> <mark>Go</mark> <mark>Python</mark> <mark>Docker</mark> <mark>Jenkins</mark> <mark>Terraform</mark> <mark>Bash</mark> <mark>Linux</mark> <mark>git</mark>
       - layout: left
         title: ContactEngine
         link: www.contactengine.com
