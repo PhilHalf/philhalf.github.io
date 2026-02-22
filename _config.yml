@@ -61,7 +61,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Designed and implemented a scalable data ingestion pipeline to supply large volumes of structured data to an internal AI Search Agent. The pipeline orchestrates a multi-stage workflow beginning with secure file retrieval via SFTP, progressing through file parsing, relational database updates, and vector embedding generation — transforming raw data into a format optimised for AI-driven semantic search.
           
-          The pipeline architecture leverages <mark>AWS Step Functions</mark> to orchestrate the end-to-end workflow, coordinating <mar>Lambda Functions</mark> for lightweight processing tasks and <mark>ECS</mark> tasks for more compute-intensive operations. This separation of concerns allows each stage to scale independently and keeps the system maintainable as data volumes grow. Pipelines run on a daily schedule, with built-in monitoring and alerting to ensure reliability and rapid detection of failures.
+          The pipeline architecture leverages <mark>AWS Step Functions</mark> to orchestrate the end-to-end workflow, coordinating <mark>Lambda Functions</mark> for lightweight processing tasks and <mark>ECS</mark> tasks for more compute-intensive operations. This separation of concerns allows each stage to scale independently and keeps the system maintainable as data volumes grow. Pipelines run on a daily schedule, with built-in monitoring and alerting to ensure reliability and rapid detection of failures.
           
           Key Technologies: <mark>Step Functions</mark>, <mark>Lambda</mark>, <mark>ECS</mark>, <mark>PostgreSQL</mark>
       - layout: top-middle
