@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Phil Halfpenny
-title: Solutions Architect and Principal Developer
+title: Founding Cloud and Software Engineer
 email: hello@philhalfpenny.co.uk
 website: about.philhalfpenny.co.uk
 
@@ -48,7 +48,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Phil and I'm a solutions architect and principal developer. I have over 20 years' experience in software and web development, including both on-premise and cloud infrastructure support and maintenance and a history in technical support. I have worked in a variety of companies over the years ranging from large financial institutions to small creative agencies and everything in between.
+  Hi, my name's Phil and I'm a solutions architect and software developer. I have over 20 years' experience in software and web development, including both on-premise and cloud infrastructure support and maintenance and a history in technical support. I have worked in a variety of companies over the years ranging from large financial institutions to small creative agencies and everything in between.
 
   My main skill set consists of: <mark>System Design</mark>, <mark>Software Development</mark>, <mark>DevOps</mark>, <mark>AWS</mark> and <mark>Build Automation</mark>.
 
@@ -56,6 +56,14 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle
+        title: Data Ingestion Pipeline
+        description: | # this will include new lines to allow paragraphs
+          Designed and implemented a scalable data ingestion pipeline to supply large volumes of structured data to an internal AI Search Agent. The pipeline orchestrates a multi-stage workflow beginning with secure file retrieval via SFTP, progressing through file parsing, relational database updates, and vector embedding generation — transforming raw data into a format optimised for AI-driven semantic search.
+          
+          The pipeline architecture leverages <mark>AWS Step Functions</mark> to orchestrate the end-to-end workflow, coordinating <mar>Lambda Functions</mark> for lightweight processing tasks and <mark>ECS</mark> tasks for more compute-intensive operations. This separation of concerns allows each stage to scale independently and keeps the system maintainable as data volumes grow. Pipelines run on a daily schedule, with built-in monitoring and alerting to ensure reliability and rapid detection of failures.
+          
+          Key Technologies: <mark>Step Functions</mark>, <mark>Lambda</mark>, <mark>ECS</mark>, <mark>PostgreSQL</mark>
       - layout: top-middle
         title: Sole Designer and Developer of IoT Edge Agent
         description: | # this will include new lines to allow paragraphs
@@ -97,6 +105,19 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Handshaik Limited
+        link: www.handshaik.com
+        sub_title: Founding Cloud and Software Engineer
+        caption: September 2025 - Present
+        description: | # this will include new lines to allow paragraphs
+          I'm currently working as a cloud and software engineer at Handshaik, a recent start-up developing an <mark>AI driven M&A <mark>SaaS</mark>. One of my first projects was to standardise the build and deployment processes. 
+          Alongside maintaining and improving the infrastructure and DevOps processes, I'm heavily involved in developing the platform on both the <mark>FastAPI</mark> backend as well as the <mark>NextJS<mark> frontend and supporting processes running on <mark>ECS</mark> and <mark>Lambda</mark>.
+          
+          Due to the nature of the software, a lot of data processing and wrangling is required to get the data into the ideal shape to be accessed via the in-house search agent.
+          Data processing varies between simple <mark>ETL</mark> with calculations from existing data and others involves using <mark>LLM</mark> to generate summary information from detailed data involving iterative <mark>prompt engineering</mark>
+          
+          Main Skills: <mark>AWS</mark>  <mark>Python</mark> <mark>FastAPI</mark> <mark>Postgres</mark> <mark>Step Functions</mark> <mark>NextJS/React</mark> <mark>Typescript</mark> <mark>Terraform</mark> <mark>GitHub Actions</mark> <mark>Prompt Engineering</mark>
+      - layout: left
         title: Intamac Systems Ltd.
         link: www.intamac.com
         sub_title: Solutions Architect and Principal Developer
@@ -105,8 +126,8 @@ content:
           Upon my most recent employment at Intamac, I came in as a <mark>DevOps</mark> Engineer using my experience from my previous role at ContactEngine to design and implement build pipelines for the <mark>Continuous Deployment</mark> of a <mark>Microservice</mark> based <mark>IoT Platform</mark>.
           Although I continued to maintain and improve the <mark>CI/CD</mark> pipelines, I also got involved in the development of the Microservices and over time, took on the role of Solutions Architect for the whole Platform.
           
-          Today, I am solely responsible for the design and implementation of the Platform and am heavily involved in the software development of the Microservices using mainly <mark>.Net</mark> and <mark>Python</mark>.
-          I am also the lead developer of the "agent" software, developed with <mark>Go</mark> that is deployed to edge devices to communicate with the Platform and integrate devices with the Platform services.
+          I was solely responsible for the design and implementation of the Platform and was heavily involved in the software development of the Microservices using mainly <mark>.Net</mark> and <mark>Python</mark>.
+          I was also the lead developer of the "agent" software, developed with <mark>Go</mark> that is deployed to edge devices to communicate with the Platform and integrate devices with the Platform services.
           
           Main Skills: <mark>AWS</mark> <mark>C#</mark> <mark>Go</mark> <mark>Python</mark> <mark>Docker</mark> <mark>Jenkins</mark> <mark>Terraform</mark> <mark>Bash</mark> <mark>Linux</mark> <mark>git</mark>
       - layout: left
